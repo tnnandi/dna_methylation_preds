@@ -220,7 +220,6 @@ pyaging_data/
 # Public ignores
 /analysis/
 /scripts/
-.coveragerc
 /tests/
 /tutorials/*
 !/tutorials/quick_setup.ipynb
@@ -232,3 +231,5 @@ pyaging_data/
 !/configs/experiment/template.yaml
 .pre-commit-config.yaml
 Makefile
+.DS_Store
+.coveragerc
