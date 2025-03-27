@@ -1,0 +1,25 @@
+NON-COMMERCIAL LICENSE AGREEMENT
+
+CpGPT: A Foundation Model for DNA Methylation
+
+Copyright (c) 2024 Lucas Paulo de Lima Camillo and contributors
+
+This software and associated documentation files (the "Software") may be used for non-commercial research and educational purposes only. "Non-commercial" means not primarily intended for or directed towards commercial advantage or monetary compensation.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this Software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, and distribute copies of the Software, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+2. The Software may not be used for commercial purposes, including but not limited to:
+   a. Selling or licensing the Software or derivatives based on the Software
+   b. Using the Software to provide services to third parties for monetary compensation
+   c. Using the Software in a commercial product or service
+   d. Using the model or code to participate in any competition with financial prizes, including but not limited to the Biomarkers of Aging Challenge
+
+3. Redistributions in any form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+4. Publications resulting from the use of this Software must cite the original publication as referenced in the README.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For commercial use, please contact Lucas Paulo de Lima Camillo for licensing options.
