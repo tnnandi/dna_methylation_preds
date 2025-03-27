@@ -230,3 +230,5 @@ pyaging_data/
 !/configs/data/default.yaml
 /configs/experiment/*
 !/configs/experiment/template.yaml
+.pre-commit-config.yaml
+Makefile
