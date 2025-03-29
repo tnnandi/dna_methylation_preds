@@ -375,7 +375,37 @@ class DNALLMEmbedder:
         )
         embedding_size = self.llm_embedding_size_dict[dna_llm]
 
-        if Path.exists(embeddings_file):
+        # Check if the permanent embeddings file (without .tmp) exists
+        permanent_file = Path(embeddings_file).with_suffix("").with_suffix(".mmap")
+        if permanent_file.exists():
+            self.logger.info(f"Found existing embeddings file: {permanent_file}")
+            # Load existing embeddings
+            existing_embeddings = np.memmap(
+                permanent_file,
+                dtype="float32",
+                mode="r",
+                shape=(
+                    len(self.ensembl_metadata_dict[species][dna_llm][dna_context_len]),
+                    embedding_size,
+                ),
+            )
+
+            # Create new temporary file with sufficient size
+            embeddings = np.memmap(
+                embeddings_file,
+                dtype="float32",
+                mode="w+",
+                shape=(max(initial_size, existing_embeddings.shape[0]), embedding_size),
+            )
+
+            # Copy existing embeddings to the temporary file
+            embeddings[: existing_embeddings.shape[0]] = existing_embeddings[:]
+            embeddings.flush()
+
+            return embeddings, initial_size
+
+        # If the temporary file exists, open in r+ mode
+        if Path(embeddings_file).exists():
             embeddings = np.memmap(
                 embeddings_file,
                 dtype="float32",
@@ -389,6 +419,7 @@ class DNALLMEmbedder:
                 ),
             )
         else:
+            # Create new temporary file if neither exists
             embeddings = np.memmap(
                 embeddings_file,
                 dtype="float32",

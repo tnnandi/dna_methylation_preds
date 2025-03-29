@@ -18,8 +18,8 @@ from cpgpt.loss.loss import (
     gompertz_aft_loss,
     kld_bernoulli_loss,
     kld_normal_loss,
-    wd_loss,
     rsf_loss,
+    wd_loss,
 )
 
 from .utils import (
@@ -30,6 +30,7 @@ from .utils import (
     patch_attention,
     safe_clone,
 )
+
 
 class CpGPTLitModule(LightningModule):
     """A LightningModule for CpG site prediction using deep learning.
@@ -364,7 +365,6 @@ class CpGPTLitModule(LightningModule):
 
         # Step 4: Iterative training loop over splits
         for step in range(1, max(n_splits, 2)):
-
             # 4.1: Prepare input data for current split
             input_data = self._pad_input_data(
                 batch,
@@ -583,9 +583,7 @@ class CpGPTLitModule(LightningModule):
         return output_dictionary
 
     def _predict_forward_step(
-        self,
-        batch: dict[str, Any],
-        n_splits: int
+        self, batch: dict[str, Any], n_splits: int
     ) -> dict[str, torch.Tensor]:
         """Perform the default forward prediction step.
 
@@ -896,7 +894,9 @@ class CpGPTLitModule(LightningModule):
                 },
             )
 
-        if self.hparams.training["reconstruct_mode"] == "unseen" or not self.training and not self.hparams.training["generative_splits"] == 1:
+        if self.hparams.training["reconstruct_mode"] == "unseen" or (
+            not self.training and self.hparams.training["generative_splits"] != 1
+        ):
             loss_inputs["loss_mask"] = ~current_input_masks
 
         return loss_inputs
@@ -1292,7 +1292,9 @@ class CpGPTLitModule(LightningModule):
                 losses["condition_loss"] = censored_mae_loss(pred_conditions, time, event).mean()
             elif condition_loss_type == "c_index_loss":
                 time, event, age, female = obsm[:, 0], obsm[:, 1], obsm[:, 2], obsm[:, 3]
-                losses["condition_loss"] = c_index_loss(pred_conditions, time, event, age, female).mean()
+                losses["condition_loss"] = c_index_loss(
+                    pred_conditions, time, event, age, female
+                ).mean()
             elif condition_loss_type == "cph_loss":
                 time, event = obsm[:, 0], obsm[:, 1]
                 losses["condition_loss"] = cph_loss(pred_conditions, time, event).mean()
@@ -1303,7 +1305,7 @@ class CpGPTLitModule(LightningModule):
                     time,
                     event,
                     0.005,  # lambda_param: typical US population value
-                    0.1,    # gamma: typical US population value
+                    0.1,  # gamma: typical US population value
                 ).mean()
             elif condition_loss_type == "rsf_loss":
                 time, event = obsm[:, 0], obsm[:, 1]
@@ -1491,6 +1493,7 @@ class CpGPTLitModule(LightningModule):
 
         noise = torch.randn_like(x_t) if t[0] > 0 else 0
         return mean + sigma * noise
+
 
 if __name__ == "__main__":
     _ = CpGPTLitModule(None, None, None)

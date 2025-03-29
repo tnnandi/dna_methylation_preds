@@ -22,21 +22,21 @@ model:
     # - bce: Binary Cross Entropy
     # - ce: Cross Entropy (single-class classification/softmax)
     condition_decoder_loss: mae
-    
+
     # Generative splits configuration:
     # - 1: Model sees the entire input
     # - 2: Model sees half of the input (slightly more generalizable, slightly worse performance)
     # - 3+: Generative training with N splits (even more generalizable, slightly worse performance)
     generative_splits: 1
-    
+
     loss_weights:
       # Recommended: the condition loss should be about half of the total loss
       # Experiment with different values for your specific dataset
       condition_loss: 0.1
-      
+
   optimizer:
     lr: 0.0001
-    
+
   net:
     use_condition_decoder: true
     condition_size: 1  # Number of target variables to predict
@@ -49,12 +49,12 @@ trainer:
 # ===== Data Configuration =====
 data:
   batch_size: 16
-  
+
   # Data paths - see quick setup tutorial for data preparation instructions
   train_dir: ${paths.data_dir}/mydata/processed/train
   val_dir: ${paths.data_dir}/mydata/processed/val
   test_dir: ${paths.data_dir}/mydata/processed/test
-  
+
   # Maximum length of input sequence
   max_length: 20000
 

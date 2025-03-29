@@ -63,7 +63,6 @@ Alternatively, the package is available through:
 pip install CpGPT
 ```
 
-
 ### Setting up AWS CLI for Dependencies
 
 Our pre-trained models and data are stored in AWS S3. If you do not already have an AWS account setup, follow these steps:
@@ -85,6 +84,7 @@ Our pre-trained models and data are stored in AWS S3. If you do not already have
 <summary><b>2. Install the AWS CLI</b></summary>
 
 **For Linux/macOS:**
+
 ```bash
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
@@ -92,10 +92,12 @@ sudo ./aws/install
 ```
 
 **For Windows:**
+
 - Download the [AWS CLI MSI installer](https://awscli.amazonaws.com/AWSCLIV2.msi)
 - Run the downloaded MSI installer and follow the on-screen instructions
 
 **Verify installation:**
+
 ```bash
 aws --version
 ```
@@ -124,6 +126,7 @@ aws configure
 ```
 
 You'll need to input:
+
 - **AWS Access Key ID**: The access key ID from step 3
 - **AWS Secret Access Key**: The secret access key from step 3
 - **Default region name**: Enter `us-east-1` (where our data is hosted)
@@ -135,6 +138,7 @@ You'll need to input:
 <summary><b>5. Test Your Configuration</b></summary>
 
 Verify your setup with this command that lists the contents (without downloading):
+
 ```bash
 aws s3 ls s3://cpgpt-lucascamillo-public/data/cpgcorpus/raw/ --requester-payer requester
 ```
@@ -142,7 +146,6 @@ aws s3 ls s3://cpgpt-lucascamillo-public/data/cpgcorpus/raw/ --requester-payer r
 You should see a list of GSE folders if your configuration is correct.
 
 </details>
-
 
 ## 🗄️ CpGCorpus
 
@@ -215,10 +218,10 @@ There are several versions of CpGPT, mainly divided into pretrained and finetune
 <details open>
 <summary><b>Pre-trained Models</b></summary>
 
-| Model      | Size  | Parameters | Description                                                                       | Model Name                                    |
-| ---------- | ----- | ---------- | --------------------------------------------------------------------------------- | --------------------------------------- |
-| CpGPT-2M   | 30MB  | ~2.5M      | Lightweight model for quick experimentation and resource-constrained environments | `small` |
-| CpGPT-100M | 1.1GB | ~101M      | Full-size model for state-of-the-art performance and high accuracy                | `large` |
+| Model      | Size  | Parameters | Description                                                                       | Model Name |
+| ---------- | ----- | ---------- | --------------------------------------------------------------------------------- | ---------- |
+| CpGPT-2M   | 30MB  | ~2.5M      | Lightweight model for quick experimentation and resource-constrained environments | `small`    |
+| CpGPT-100M | 1.1GB | ~101M      | Full-size model for state-of-the-art performance and high accuracy                | `large`    |
 
 </details>
 
@@ -227,11 +230,10 @@ There are several versions of CpGPT, mainly divided into pretrained and finetune
 
 > ⚠️ **Note**: Fine-tuned model weights are currently being updated and will be available soon. The table below shows the models that will be provided.
 
-
 We provide specialized pre-trained models for common tasks:
 
-| Model                       | Parameters | Description                                              | Output                                                                 | Model Name                                                  |
-| --------------------------- | ---------- | -------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------- |
+| Model                       | Parameters | Description                                              | Output                                                                 | Model Name            |
+| --------------------------- | ---------- | -------------------------------------------------------- | ---------------------------------------------------------------------- | --------------------- |
 | CpGPT-2M-Age                | ~2.9M      | Multi-tissue chronological age predictor                 | Age in years                                                           | `age`                 |
 | CpGPT-2M-AverageAdultWeight | ~2.9M      | Multi-tissue, pan-mammalian weight predictor             | Log1p of average adult weight in kilograms                             | `average_adultweight` |
 | CpGPT-100M-BoA              | ~101M      | EPICv2 blood imputation                                  | No phenotype is predicted                                              | `boa`                 |
@@ -241,7 +243,7 @@ We provide specialized pre-trained models for common tasks:
 | CpGPT-100M-Hannum           | ~101M      | 450k blood imputation                                    | No phenotype is predicted                                              | `hannum`              |
 | CpGPT-100M-HumanRRBSAtlas   | ~101M      | Multi-tissue RRBS imputation                             | No phenotype is predicted                                              | `human_rrbs_atlas`    |
 | CpGPT-100M-Mammalian        | ~101M      | Multi-tissue, pan-mammalian mammalian array imputation   | No phenotype is predicted                                              | `mammalian`           |
-| CpGPT-2M-MaxLifespan        | ~2.9M      | Multi-tissue, pan-mammalian max lifespan predictor       | Log1p of max lifespan in years                                         | `maximum_lifespan`           |
+| CpGPT-2M-MaxLifespan        | ~2.9M      | Multi-tissue, pan-mammalian max lifespan predictor       | Log1p of max lifespan in years                                         | `maximum_lifespan`    |
 | CpGPT-2M-Mortality          | ~2.9M      | Blood mortality predictor. Please use strict_load=False. | Risk score                                                             | `mortality`           |
 | CpGPT-2M-RelativeAge        | ~2.9M      | Multi-tissue, pan-mammalian relative age predictor       | Relative age (0 to 1)                                                  | `relative_age`        |
 | CpGPT-100M-sciMETv3         | ~101M      | Brain, single-cell imputation                            | No phenotype is predicted                                              | `scimetv3`            |
@@ -462,7 +464,7 @@ If you use CpGPT in your research, please cite our paper:
 ```bibtex
 @article{camillo2024cpgpt,
   title={CpGPT: A Foundation Model for DNA Methylation},
-  author={Camillo, Lucas Paulo de Lima et al.},
+  author={de Lima Camillo, Lucas Paulo et al.},
   journal={bioRxiv},
   year={2024},
   doi={10.1101/2024.10.24.619766},
@@ -472,7 +474,7 @@ If you use CpGPT in your research, please cite our paper:
 
 ## ☎️ Contact
 
-For contact, please email me at lucas_camillo@alumni.brown.edu.
+For contact, please email lucas_camillo@alumni.brown.edu.
 
 ## 📜 License
 
