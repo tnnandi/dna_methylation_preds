@@ -84,6 +84,7 @@ gseapy = "^1.1.4"
 lion-pytorch = "^0.2.3"
 computage = "^0.1.7"
 boruta = "^0.4.3"
+gdown = "^5.2.0"
 
 [build-system]
 requires = ["poetry-core"]

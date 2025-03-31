@@ -260,6 +260,11 @@ More tutorials will be added soon!
     <p>Basic introduction to CpGPT and its capabilities</p>
     <a href="tutorials/quick_setup.ipynb">View Tutorial</a>
   </div>
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; width: 250px;">
+    <h3>🗺️ Reference map</h3>
+    <p>Zero-shot label transfer to a reference dataset</p>
+    <a href="tutorials/reference_map.ipynb">View Tutorial</a>
+  </div>
 </div>
 
 ## 🔧 Finetuning

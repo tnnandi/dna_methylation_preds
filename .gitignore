@@ -223,6 +223,7 @@ pyaging_data/
 /tests/
 /tutorials/*
 !/tutorials/quick_setup.ipynb
+!/tutorials/reference_map.ipynb
 /docker/
 /.github/
 /configs/data/*

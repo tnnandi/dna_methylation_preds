@@ -345,7 +345,7 @@ class CpGPTInferencer:
             self.logger.info(
                 f"Dependencies for {species} already exist at {target_dir} (skipping download)."
             )
-            return True
+            return
 
         # Download the dependencies
         s3_prefix = f"dependencies/{species}/"
@@ -448,7 +448,7 @@ class CpGPTInferencer:
             self.logger.info(
                 f"Dataset {gse_id} already exists at {target_dir} (skipping download)."
             )
-            return True
+            return
 
         # Download the dataset
         local_path = f"{target_dir_base}/cpgcorpus/raw/{gse_id}"
