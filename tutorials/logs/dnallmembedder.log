@@ -1,0 +1,588 @@
+2025-05-26 23:35:24 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-26 23:35:24 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-26 23:35:24 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-26 23:35:42 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-26 23:38:08 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-26 23:38:08 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-26 23:38:08 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-26 23:38:23 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-26 23:38:23 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-26 23:38:23 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-26 23:38:23 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-26 23:38:38 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 02:09:25 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 02:09:25 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 02:09:25 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 02:10:06 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 02:14:23 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 02:14:23 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 02:14:23 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 02:14:36 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 02:14:36 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 02:14:36 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 02:14:36 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 02:14:50 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 02:45:19 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 02:45:19 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 02:45:19 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 02:45:58 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 02:47:52 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 02:47:52 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 02:47:52 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 02:48:06 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 02:48:06 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 02:48:06 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 02:48:06 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 02:48:18 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:01:09 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:01:09 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:01:09 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:01:33 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:01:43 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:01:43 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:01:43 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:01:53 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:01:53 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:01:53 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:01:53 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:04 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:27 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:27 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:27 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:27 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:27 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:27 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:29 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:38 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:38 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:38 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:38 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:38 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:39 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:39 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:39 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:40 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:40 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:41 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:49 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:49 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:49 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:49 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:49 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:49 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:49 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:49 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:02:52 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:02:59 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:03:00 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:03:03 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:03:03 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:03:03 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:03:03 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:03:03 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:10:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:10:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:10:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:11:06 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:11:07 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:11:07 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:11:07 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:11:17 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:11:17 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:11:17 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:11:17 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:11:27 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:11:47 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:11:47 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:11:47 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:11:50 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:11:58 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:11:59 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:11:59 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:11:59 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:01 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:01 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:01 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:01 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:02 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:10 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:10 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:10 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:10 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:12 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:12 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:12 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:12 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:12:13 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:12:21 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:23 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:23 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:23 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:24 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:24 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:12:24 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:31:36 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:31:36 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:31:36 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:31:59 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:31:59 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:31:59 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:31:59 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:10 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:32:10 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:10 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:10 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:20 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:32:40 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:40 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:40 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:40 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:40 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:40 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:41 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:41 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:41 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:41 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:41 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:41 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:41 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:41 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:41 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:42 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:42 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:42 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:42 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:42 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:42 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:51 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:32:51 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:32:51 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:51 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:51 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:51 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:51 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:51 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:52 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:32:52 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:32:52 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:32:52 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:52 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:52 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:53 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:32:54 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:32:54 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:32:54 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:33:02 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:02 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:33:02 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:33:02 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:33:02 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:02 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:33:02 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:33:02 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:33:03 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:33:04 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:04 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:33:04 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:33:04 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:33:04 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:04 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:33:04 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:33:04 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:33:13 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:13 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:14 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:14 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:14 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:15 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:33:15 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:37:43 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:37:43 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:37:43 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:37:54 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:37:54 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:37:54 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:37:54 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:38:04 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:38:04 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:38:04 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:38:04 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:38:15 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:41:38 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:41:38 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:41:38 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:41:48 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:41:49 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:41:49 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:41:49 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:41:59 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 03:41:59 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 03:41:59 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 03:41:59 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 03:42:09 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:22:22 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:22:22 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:22:22 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:22:45 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:22:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:22:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:22:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:23:06 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:23:06 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:23:06 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:23:06 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:23:17 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:23:48 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:23:48 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:23:48 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:23:59 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:23:59 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:23:59 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:23:59 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:09 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:24:09 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:09 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:09 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:20 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:24:43 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:43 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:43 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:43 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:43 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:43 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:43 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:43 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:43 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:44 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:53 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:24:54 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:24:54 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:54 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:54 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:54 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:54 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:54 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:54 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:24:55 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:55 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:55 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:55 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:24:55 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:24:55 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:24:55 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:55 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:55 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:55 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:24:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:24:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:24:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:24:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:25:04 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:04 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:25:04 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:25:04 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:25:05 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:05 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:25:05 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:25:05 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:25:06 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:06 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:25:06 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:25:06 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:25:06 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:06 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:25:06 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:25:06 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:25:07 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:25:15 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:16 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:16 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:16 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:17 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:18 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:25:18 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:30:02 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:30:02 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:30:02 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:30:13 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:30:13 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:30:13 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:30:13 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:30:24 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:30:24 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:30:24 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:30:24 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:30:34 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:30:53 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:30:53 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:30:53 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:30:56 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:04 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:05 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:05 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:05 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:07 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:08 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:08 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:08 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:16 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:16 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:16 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:16 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:31:18 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:31:26 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:28 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:28 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:29 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:29 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:29 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:31:29 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:36:40 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:36:40 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:36:40 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:36:51 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:36:52 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:36:52 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:36:52 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:37:02 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:37:02 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:37:02 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:37:02 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:37:12 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:57:16 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:57:16 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:57:16 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:57:27 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:57:27 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:57:27 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:57:27 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:57:37 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 04:57:37 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 04:57:37 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 04:57:37 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 04:57:48 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 05:11:26 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 05:11:26 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 05:11:26 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 05:11:37 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 05:11:37 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 05:11:37 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 05:11:37 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 05:11:48 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-05-27 05:11:48 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 05:11:48 | INFO | DNALLMEmbedder: Genome files will be stored under ../dependencies/human/genomes.
+2025-05-27 05:11:48 | INFO | DNALLMEmbedder: DNA embeddings will be stored under ../dependencies/human/dna_embeddings and subdirectories.
+2025-05-27 05:11:58 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully

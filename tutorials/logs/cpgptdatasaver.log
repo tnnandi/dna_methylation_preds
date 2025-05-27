@@ -1,0 +1,327 @@
+2025-05-26 23:35:53 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-26 23:35:53 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/quick_setup.
+2025-05-26 23:35:53 | INFO | CpGPTDataSaver: No existing dataset metrics found. Please process files.
+2025-05-26 23:35:53 | INFO | CpGPTDataSaver: No existing genomic locations found. Please process files.
+2025-05-26 23:35:53 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-26 23:35:53 | DEBUG | CpGPTDataSaver: Processing file: ../data/tutorials/raw/toy_filtered.arrow.
+2025-05-26 23:35:53 | DEBUG | CpGPTDataSaver: No metadata column declared.
+2025-05-26 23:35:53 | WARNING | CpGPTDataSaver: No species column found. Defaulting to homo_sapiens.
+2025-05-26 23:35:54 | DEBUG | CpGPTDataSaver: Found 19948 probe features to convert.
+2025-05-26 23:35:54 | DEBUG | CpGPTDataSaver: Processed 19948 probe features to genomic locations.
+2025-05-26 23:35:54 | DEBUG | CpGPTDataSaver: DataFrame shape unchanged: (38, 19948)
+2025-05-26 23:35:55 | DEBUG | CpGPTDataSaver: Saved dataset metrics under ../data/tutorials/processed/quick_setup/dataset_metrics.db.
+2025-05-26 23:35:55 | DEBUG | CpGPTDataSaver: Saved genomic locations under ../data/tutorials/processed/quick_setup/genomic_locations.db.
+2025-05-26 23:35:55 | DEBUG | CpGPTDataSaver: Processed .._data_tutorials_raw_toy_filtered successfully.
+2025-05-26 23:35:55 | INFO | CpGPTDataSaver: File processing completed.
+2025-05-27 02:10:48 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 02:10:48 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 02:10:48 | INFO | CpGPTDataSaver: No existing dataset metrics found. Please process files.
+2025-05-27 02:10:48 | INFO | CpGPTDataSaver: No existing genomic locations found. Please process files.
+2025-05-27 02:10:48 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 02:10:48 | DEBUG | CpGPTDataSaver: Processing file: ../data/tutorials/raw/fhs_filtered.arrow.
+2025-05-27 02:10:49 | DEBUG | CpGPTDataSaver: No metadata column declared.
+2025-05-27 02:10:49 | WARNING | CpGPTDataSaver: No species column found. Defaulting to homo_sapiens.
+2025-05-27 02:10:49 | DEBUG | CpGPTDataSaver: Found 21249 probe features to convert.
+2025-05-27 02:10:49 | DEBUG | CpGPTDataSaver: Processed 21249 probe features to genomic locations.
+2025-05-27 02:10:49 | DEBUG | CpGPTDataSaver: DataFrame shape unchanged: (1425, 21249)
+2025-05-27 02:10:52 | DEBUG | CpGPTDataSaver: Saved dataset metrics under ../data/tutorials/processed/fhs_setup/dataset_metrics.db.
+2025-05-27 02:10:52 | DEBUG | CpGPTDataSaver: Saved genomic locations under ../data/tutorials/processed/fhs_setup/genomic_locations.db.
+2025-05-27 02:10:52 | DEBUG | CpGPTDataSaver: Processed .._data_tutorials_raw_fhs_filtered successfully.
+2025-05-27 02:10:52 | INFO | CpGPTDataSaver: File processing completed.
+2025-05-27 02:46:20 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 02:46:20 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 02:46:20 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 02:46:20 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 02:46:20 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 02:46:20 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 02:47:31 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 02:47:31 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 02:47:31 | INFO | CpGPTDataSaver: No existing dataset metrics found. Please process files.
+2025-05-27 02:47:31 | INFO | CpGPTDataSaver: No existing genomic locations found. Please process files.
+2025-05-27 02:47:31 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 02:47:31 | DEBUG | CpGPTDataSaver: Processing file: ../data/tutorials/raw/fhs_filtered.arrow.
+2025-05-27 02:47:32 | DEBUG | CpGPTDataSaver: No metadata column declared.
+2025-05-27 02:47:32 | WARNING | CpGPTDataSaver: No species column found. Defaulting to homo_sapiens.
+2025-05-27 02:47:33 | DEBUG | CpGPTDataSaver: Found 21249 probe features to convert.
+2025-05-27 02:47:33 | DEBUG | CpGPTDataSaver: Processed 21249 probe features to genomic locations.
+2025-05-27 02:47:33 | DEBUG | CpGPTDataSaver: DataFrame shape unchanged: (474, 21249)
+2025-05-27 02:47:34 | DEBUG | CpGPTDataSaver: Saved dataset metrics under ../data/tutorials/processed/fhs_setup/dataset_metrics.db.
+2025-05-27 02:47:34 | DEBUG | CpGPTDataSaver: Saved genomic locations under ../data/tutorials/processed/fhs_setup/genomic_locations.db.
+2025-05-27 02:47:34 | DEBUG | CpGPTDataSaver: Processed .._data_tutorials_raw_fhs_filtered successfully.
+2025-05-27 02:47:34 | INFO | CpGPTDataSaver: File processing completed.
+2025-05-27 03:01:43 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:01:43 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:01:43 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:01:43 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:01:43 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:01:43 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:02:38 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:02:38 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:02:38 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:02:38 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:02:38 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:02:38 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:02:39 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:02:39 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:02:39 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:02:39 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:02:39 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:02:39 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:02:41 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:11:07 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:11:07 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:11:07 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:11:07 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:11:07 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:11:07 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:11:59 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:11:59 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:11:59 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:11:59 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:11:59 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:11:59 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:12:02 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:31:59 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:31:59 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:31:59 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:31:59 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:31:59 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:31:59 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:32:51 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:32:52 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:32:52 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:32:52 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:32:52 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:32:52 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:32:52 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:32:53 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:32:54 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:32:54 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:32:54 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:32:54 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:32:54 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:32:54 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:37:54 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:37:54 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:37:54 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:37:54 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:37:54 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:37:54 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 03:41:49 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 03:41:49 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 03:41:49 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 03:41:49 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 03:41:49 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 03:41:49 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:22:56 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:22:56 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:22:56 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:22:56 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:22:56 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:22:56 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:23:59 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:23:59 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:23:59 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:23:59 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:23:59 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:23:59 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:24:54 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:24:55 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:24:56 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:30:13 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:30:13 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:30:13 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:30:13 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:30:13 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:30:13 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:31:05 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:31:05 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:31:05 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:31:05 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:31:05 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:31:05 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:31:07 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:31:08 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:31:08 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:31:08 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:31:08 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:31:08 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:31:08 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:36:51 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:36:51 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:36:51 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:36:52 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:36:52 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:36:52 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 04:57:27 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 04:57:27 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 04:57:27 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 04:57:27 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 04:57:27 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 04:57:27 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.
+2025-05-27 05:11:37 | INFO | CpGPTDataSaver: Initializing class CpGPTDataSaver.
+2025-05-27 05:11:37 | INFO | CpGPTDataSaver: Dataset folders will be stored under ../data/tutorials/processed/fhs_setup.
+2025-05-27 05:11:37 | INFO | CpGPTDataSaver: Loaded existing dataset metrics.
+2025-05-27 05:11:37 | INFO | CpGPTDataSaver: Loaded existing genomic locations.
+2025-05-27 05:11:37 | INFO | CpGPTDataSaver: Starting file processing.
+2025-05-27 05:11:37 | INFO | CpGPTDataSaver: 1 files already processed. Skipping those.

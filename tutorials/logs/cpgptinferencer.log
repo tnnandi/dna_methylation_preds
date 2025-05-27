@@ -1,0 +1,882 @@
+2025-05-26 23:01:39 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-26 23:01:39 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-26 23:01:39 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-26 23:01:39 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-26 23:01:42 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, etc.
+2025-05-26 23:01:42 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-26 23:06:07 | INFO | CpGPTInferencer: Downloading human dependencies to ../dependencies/human.
+2025-05-26 23:06:30 | INFO | CpGPTInferencer: Successfully downloaded human dependencies.
+2025-05-26 23:15:10 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-26 23:15:10 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-26 23:15:10 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-26 23:15:10 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-26 23:15:10 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, etc.
+2025-05-26 23:15:10 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-26 23:17:54 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-26 23:17:54 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-26 23:17:54 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-26 23:17:54 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-26 23:17:55 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, etc.
+2025-05-26 23:17:55 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-26 23:19:44 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-26 23:19:44 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-26 23:19:44 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-26 23:19:44 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-26 23:19:45 | INFO | CpGPTInferencer: There are 19 CpGPT models availablee such as age, age_cot, average_adultweight, etc.
+2025-05-26 23:19:45 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-26 23:22:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-26 23:22:32 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-26 23:22:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-26 23:22:32 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-26 23:22:33 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-26 23:22:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-26 23:24:10 | INFO | CpGPTInferencer: Downloading model checkpoint to ../dependencies/model/weights/cancer.ckpt.
+2025-05-26 23:24:10 | INFO | CpGPTInferencer: Downloading model config to ../dependencies/model/config/cancer.yaml
+2025-05-26 23:24:10 | INFO | CpGPTInferencer: Downloading model vocabulary to ../dependencies/model/vocab/cancer.json
+2025-05-26 23:24:11 | INFO | CpGPTInferencer: Successfully downloaded model 'cancer'.
+2025-05-26 23:27:10 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-26 23:27:12 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-26 23:27:12 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-26 23:27:12 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/cancer.ckpt
+2025-05-26 23:27:12 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-26 23:29:42 | INFO | CpGPTInferencer: Downloading dataset GSE182215 to ../data/cpgcorpus/raw/GSE182215.
+2025-05-26 23:29:44 | INFO | CpGPTInferencer: Successfully downloaded dataset GSE182215.
+2025-05-27 01:41:10 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 01:41:10 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 01:41:10 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 01:41:10 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 01:41:12 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 01:41:12 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 01:41:59 | INFO | CpGPTInferencer: Downloading model checkpoint to ../dependencies/model/weights/age.ckpt.
+2025-05-27 01:41:59 | INFO | CpGPTInferencer: Downloading model config to ../dependencies/model/config/age.yaml
+2025-05-27 01:42:00 | INFO | CpGPTInferencer: Downloading model vocabulary to ../dependencies/model/vocab/age.json
+2025-05-27 01:42:00 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 01:42:05 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 01:42:05 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 01:42:05 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 01:42:05 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 01:42:05 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 01:47:23 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 01:47:23 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 01:47:23 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 01:47:23 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 01:47:24 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 01:47:24 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 01:47:24 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-05-27 01:47:24 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/cancer.ckpt (skipping download).
+2025-05-27 01:47:24 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/cancer.yaml (skipping download).
+2025-05-27 01:47:24 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/cancer.json (skipping download).
+2025-05-27 01:47:24 | INFO | CpGPTInferencer: Successfully downloaded model 'cancer'.
+2025-05-27 01:47:25 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 01:47:25 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 01:47:25 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 01:47:25 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/cancer.ckpt
+2025-05-27 01:47:25 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 01:47:25 | INFO | CpGPTInferencer: Dataset GSE182215 already exists at ../data/cpgcorpus/raw/GSE182215 (skipping download).
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 01:55:15 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 02:03:53 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 02:06:05 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 02:06:05 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 02:06:05 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 02:06:05 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 02:06:06 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 02:06:51 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 02:06:51 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 02:06:51 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 02:06:51 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 02:06:52 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 02:32:39 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 02:32:39 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 02:32:39 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 02:32:39 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 02:32:39 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 02:32:40 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 02:33:30 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 02:33:30 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 02:33:30 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 02:33:30 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 02:33:30 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 02:33:31 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:00:51 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:00:51 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:00:51 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:00:51 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:00:53 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:00:53 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:01:05 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:01:05 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:01:05 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:01:05 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:01:05 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:01:06 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:01:06 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:01:06 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:01:07 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:02:17 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:02:18 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:02:24 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:02:25 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:02:25 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:25 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:02:25 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:02:26 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:02:27 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:10:48 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:10:48 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:10:48 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:10:48 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:10:48 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:10:48 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:10:53 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:10:53 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:10:53 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:10:53 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:10:53 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:10:53 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:10:53 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:10:53 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:10:54 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:11:37 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:11:37 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:37 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:11:37 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:11:38 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:11:38 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:11:38 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:11:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:38 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:11:38 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:11:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:11:44 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:11:44 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:11:44 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:11:44 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:11:44 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:11:44 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:11:44 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:44 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:11:44 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:11:46 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:11:47 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:11:47 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:11:47 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:11:47 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:47 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:11:47 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:47 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:11:48 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:31:27 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:31:27 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:31:27 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:31:27 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:31:29 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:31:29 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:31:34 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:31:34 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:31:34 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:31:34 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:31:34 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:31:34 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:31:34 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:31:34 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:31:34 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:32:30 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:32:30 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:30 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:32:30 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:32:30 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:32:30 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:32:30 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:30 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:32:30 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:32:30 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:32:31 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:32:32 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:32:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:32:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:32:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:32:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:32:32 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:32:32 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:32:32 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:32:32 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:32:36 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:32:36 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:32:36 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:32:36 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:32:36 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:32:37 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:32:38 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:32:39 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:37:35 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:37:35 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:37:35 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:37:35 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:37:36 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:37:36 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:37:41 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:37:41 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:37:41 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:37:41 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:37:41 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:37:41 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:37:41 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:37:41 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:37:41 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 03:41:30 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 03:41:30 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:41:30 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 03:41:30 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 03:41:30 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 03:41:30 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 03:41:35 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 03:41:35 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 03:41:35 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 03:41:35 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 03:41:35 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 03:41:35 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 03:41:35 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 03:41:35 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 03:41:35 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:22:06 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:22:06 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:22:06 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:22:06 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:22:08 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:22:08 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:22:18 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:22:18 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:22:18 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:22:18 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:22:18 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:22:19 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:22:19 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:22:19 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:22:20 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:23:40 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:23:40 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:23:40 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:23:40 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:23:40 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:23:41 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:23:45 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:23:45 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:23:45 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:23:45 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:23:45 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:23:45 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:23:46 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:23:46 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:23:46 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:24:32 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:24:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:24:40 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:41 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:24:42 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:42 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:24:42 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:24:42 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:24:42 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:24:42 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:24:42 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:24:42 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:29:54 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:29:54 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:29:54 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:29:54 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:29:55 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:29:55 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:30:00 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:30:00 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:30:00 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:30:00 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:30:00 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:30:00 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:30:00 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:00 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:30:00 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:30:43 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:30:43 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:43 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:30:43 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:30:44 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:30:44 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:30:45 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:30:46 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:30:46 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:30:46 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:30:46 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:30:46 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:30:46 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:30:49 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:30:49 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:30:49 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:30:49 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:30:49 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:30:49 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:30:50 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:50 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:30:50 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:30:52 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:53 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:30:54 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:36:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:36:33 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:36:33 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:36:33 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:36:33 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:36:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:36:38 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:36:38 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:36:38 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:36:38 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:36:38 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:36:38 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:36:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:36:38 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:36:38 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 04:51:06 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:51:06 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:51:06 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:51:06 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:51:07 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:51:07 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:57:08 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 04:57:08 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:57:08 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 04:57:08 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 04:57:08 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 04:57:08 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 04:57:13 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 04:57:13 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 04:57:13 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 04:57:13 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 04:57:14 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 04:57:14 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 04:57:14 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 04:57:14 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 04:57:14 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 05:08:19 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 05:08:19 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 05:08:19 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 05:08:19 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 05:08:20 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 05:08:20 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 05:08:25 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 05:08:25 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 05:08:25 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 05:08:25 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 05:08:25 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 05:08:25 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 05:08:26 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 05:08:26 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 05:08:26 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 05:11:18 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 05:11:18 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 05:11:18 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-27 05:11:18 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-27 05:11:19 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-05-27 05:11:19 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 05:11:24 | INFO | CpGPTInferencer: Model checkpoint already exists at ../dependencies/model/weights/age.ckpt (skipping download).
+2025-05-27 05:11:24 | INFO | CpGPTInferencer: Model config already exists at ../dependencies/model/config/age.yaml (skipping download).
+2025-05-27 05:11:24 | INFO | CpGPTInferencer: Model vocabulary already exists at ../dependencies/model/vocab/age.json (skipping download).
+2025-05-27 05:11:24 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-05-27 05:11:24 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 05:11:24 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 05:11:24 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-27 05:11:24 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-27 05:11:24 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
