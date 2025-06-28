@@ -1,5 +1,16 @@
+_target_: cpgpt.data.cpgpt_datamodule.CpGPTDataModule
 # Needs to be divisible by the number of devices (e.g., if in a distributed setup)
 batch_size: 4
+#train_dir: ${paths.data_dir}/haschip/processed/train/
+#val_dir: ${paths.data_dir}/haschip/processed/val/
+#test_dir: ${paths.data_dir}/haschip/processed/test/
+#predict_dir: ${paths.data_dir}/predict/
+train_dir: /grand/GeomicVar/tarak/cpgpt/CpGPT/tutorials/data/haschip/processed/train
+val_dir: /grand/GeomicVar/tarak/cpgpt/CpGPT/tutorials/data/haschip/processed/val
+test_dir: /grand/GeomicVar/tarak/cpgpt/CpGPT/tutorials/data/haschip/processed/test
+#predict_dir: /grand/GeomicVar/tarak/cpgpt/CpGPT/tutorials/data/haschip/processed/predict
+
+dependencies_dir: /lus/grand/projects/GeomicVar/tarak/cpgpt/CpGPT/dependencies/human
 
 dna_llm: nucleotide-transformer-v2-500m-multi-species
 max_length: 10000

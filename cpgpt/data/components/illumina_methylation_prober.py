@@ -78,7 +78,10 @@ class IlluminaMethylationProber:
         illumina_metadata_dict_file = Path(self.dependencies_dir) / "illumina_metadata.db"
         if not illumina_metadata_dict_file.exists():
             self.logger.warning("Illumina metadata not found. Downloading now.")
-            self.download_illumina_metadata()
+            # TN: Temporarily disabled downloading to avoid issues with git clone (cpgpt: IlluminaMethylationProber: Failed to clone repository or checkout commit)
+            # Download https://github.com/zhou-lab/InfiniumAnnotationV1/tree/7f5f2d43fc3e53cc29df793ea3f3e847b38cfc5d to /grand/GeomicVar/tarak/cpgpt/CpGPT/dependencies/human
+            # Move the extracted files to /grand/GeomicVar/tarak/cpgpt/CpGPT/dependencies/human/manifests
+            # self.download_illumina_metadata()  
             self.logger.info("Illumina metadata downloaded successfully.")
             self.logger.info("Parsing Illumina metadata now.")
             self.parse_illumina_metadata()

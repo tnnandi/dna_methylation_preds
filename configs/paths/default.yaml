@@ -7,7 +7,8 @@ root_dir: ${oc.env:PROJECT_ROOT}
 data_dir: ${paths.root_dir}/data/
 
 # path to dependencies directory
-dependencies_dir: ${paths.root_dir}/dependencies/
+# dependencies_dir: ${paths.root_dir}/dependencies/
+dependencies_dir: /lus/grand/projects/GeomicVar/tarak/cpgpt/CpGPT/dependencies/human/
 
 # path to logging directory
 log_dir: ${paths.root_dir}/logs/

@@ -29,6 +29,13 @@ from cpgpt.infer.cpgpt_inferencer import CpGPTInferencer
 from cpgpt.model.cpgpt_module import m_to_beta
 
 def main():
+    plot_stats = True  # set to True to plot statistics for metadata columns
+    # MODEL_NAME = "age"
+    MODEL_NAME = "clock_proxies"
+    ARROW_DF_FILTERED_PATH = "../data/tutorials/raw/fhs_filtered.arrow"
+    MAX_INPUT_LENGTH = 200_000 #40_000
+    MAX_ATTN_LENGTH = 1_000
+
     # Set constants
     RANDOM_SEED = 42
     DEPENDENCIES_DIR = "../dependencies"
@@ -36,34 +43,65 @@ def main():
     DATA_DIR = "../data"
     PROCESSED_DIR = "../data/tutorials/processed/fhs_setup"
     
-    MODEL_NAME = "age"
+    # MODEL_NAME = "age"
+    # MODEL_NAME = "clock_proxies"
     MODEL_CHECKPOINT_PATH = f"../dependencies/model/weights/{MODEL_NAME}.ckpt"
     MODEL_CONFIG_PATH = f"../dependencies/model/config/{MODEL_NAME}.yaml"
     MODEL_VOCAB_PATH = f"../dependencies/model/vocab/{MODEL_NAME}.json"
     
-    ARROW_DF_FILTERED_PATH = "../data/tutorials/raw/fhs_filtered.arrow"
-    MAX_INPUT_LENGTH = 20_000
-    MAX_ATTN_LENGTH = 1_000
+    # ARROW_DF_FILTERED_PATH = "../data/tutorials/raw/fhs_filtered.arrow"
+    # MAX_INPUT_LENGTH = 20_000
+    # MAX_ATTN_LENGTH = 1_000
 
     # Set random seed
     seed_everything(RANDOM_SEED, workers=True)
 
     # Initialize inferencer
-    inferencer = CpGPTInferencer(dependencies_dir=DEPENDENCIES_DIR, data_dir=DATA_DIR)
+    inferencer = CpGPTInferencer(dependencies_dir=DEPENDENCIES_DIR, data_dir=DATA_DIR, offline=False)
+
+    inferencer.download_dependencies(species="human")
+
+    # To generate genomic embeddings for loci outside of the ones already available for download
+    if not os.path.exists(LLM_DEPENDENCIES_DIR):
+        # List CpG genomic locations
+        example_genomic_locations = ['1:100000', '1:250500', 'X:2031253'] #edit it to include the genomic locations you want to embed
+
+        # Declare required class
+        embedder = DNALLMEmbedder(dependencies_dir=LLM_DEPENDENCIES_DIR)
+
+        # Parse the embeddings
+        embedder.parse_dna_embeddings(
+            example_genomic_locations,
+            "homo_sapiens",
+            dna_llm="nucleotide-transformer-v2-500m-multi-species",
+            dna_context_len=2001,
+        )
     
     # Load FHS data
     root_dir = "/grand/GeomicVar/tarak/cpgpt/CpGPT/data_kirmani"
     data_dir = os.path.join(root_dir, "phg001091.v5.FHS_DNAMethylation.methylation-data-matrixfmt.c1")
-    parquet_file = os.path.join(data_dir, "gen3_methylation_c1.parquet")
+    gen3_parquet = os.path.join(data_dir, "gen3_methylation_c1.parquet")
+    umn_parquet = os.path.join(data_dir, "UMN_methylation_c1.parquet")
+    jhu_parquet = os.path.join(data_dir, "JHU_methylation_c1.parquet")
     
     # Load data and metadata
-    df = pd.read_parquet(parquet_file)
+    # Read each Parquet file into a DataFrame
+    df_gen3 = pd.read_parquet(gen3_parquet)
+    df_umn = pd.read_parquet(umn_parquet)
+    df_jhu = pd.read_parquet(jhu_parquet)
+
+    # Concatenate all dataframes 
+    df = pd.concat([df_gen3, df_umn, df_jhu], axis=1) # total samples = 3847
+    print(f"Total samples after concatenation: {df.shape[1]}")
+
     metadata_df = pd.read_csv("/grand/GeomicVar/tarak/methylGPT/data_kirmani/fhs_chip_metadata_yp_05092025.tsv", sep="\t")
     
     # Process dataframes
     df = df.T
+    print(f"Total samples after transpose: {len(df)}")
     df.index.name = 'sample_id'
     df.columns.name = None
+    # set_trace()
     
     # Filter and merge data
     metadata_df['subject_id'] = metadata_df['subject_id'].astype(str)
@@ -71,6 +109,7 @@ def main():
 
     # Filter both dataframes based on common IDs
     filtered_df = df[df.index.astype(str).isin(common_ids)]
+    print(f"Total samples after ID filtering: {len(filtered_df)}")
     filtered_metadata = metadata_df[metadata_df['subject_id'].astype(str).isin(common_ids)]
     filtered_metadata = filtered_metadata.drop_duplicates(subset='subject_id')
     # Ensure the order of IDs is consistent
@@ -84,22 +123,79 @@ def main():
         .reset_index()
     )
     # set_trace()
+
+    if plot_stats:
+        # create histograms for AgeAtBloodDraw, sex, haschip, gene, ExonicFunc, VAF
+        # Create a figure with subplots
+        plt.figure(figsize=(15, 10))
+
+        # Age histogram
+        plt.subplot(2, 3, 1)
+        sns.histplot(data=filtered_metadata, x='AgeAtBloodDraw', bins=30)
+        plt.title('Age Distribution')
+
+        # Sex distribution
+        plt.subplot(2, 3, 2)
+        sns.countplot(data=filtered_metadata, x='sex')
+        plt.title('Sex Distribution')
+
+        # Haschip distribution
+        plt.subplot(2, 3, 3)
+        sns.countplot(data=filtered_metadata, x='haschip')
+        plt.title('Has CHIP Distribution')
+
+        # Gene distribution 
+        plt.subplot(2, 3, 4)
+        sns.countplot(data=filtered_metadata, x='Gene')
+        plt.xticks(rotation=45, ha='right')
+        plt.title('Gene Distribution')
+
+        # ExonicFunc distribution
+        plt.subplot(2, 3, 5)
+        sns.countplot(data=filtered_metadata, x='ExonicFunc')
+        plt.xticks(rotation=45, ha='right')
+        plt.title('Exonic Function Distribution')
+
+        # VAF histogram
+        plt.subplot(2, 3, 6)
+        sns.histplot(data=filtered_metadata, x='VAF', bins=30)
+        plt.title('VAF Distribution')
+
+        plt.tight_layout()
+        plt.savefig('metadata_distributions.png')
+        plt.close()
+
+    # set_trace()
     
     # Download and load model
-    inferencer.download_model(MODEL_NAME)
+    model_exists = (
+    os.path.exists(MODEL_CHECKPOINT_PATH) and
+    os.path.exists(MODEL_CONFIG_PATH) and
+    os.path.exists(MODEL_VOCAB_PATH)
+    )
+
+    if not model_exists:
+        inferencer.download_model(MODEL_NAME)
+    else:
+        print("Model files found locally, skipping download_model()")
+
+    # inferencer.download_model(MODEL_NAME)
     config = inferencer.load_cpgpt_config(MODEL_CONFIG_PATH)
     model = inferencer.load_cpgpt_model(config, model_ckpt_path=MODEL_CHECKPOINT_PATH, strict_load=True)
     
     # Filter vocab features
+    # filtering its columns to include only those CpG sites or probes that are present in the model's vocabulary file
     vocab = json.load(open(MODEL_VOCAB_PATH, 'r'))
     filtered_df = filtered_df.loc[:, filtered_df.columns.isin(vocab['input'])]
+    print(f"Total features after vocab filtering (keeping only probes that are common to those used in model training): {filtered_df.shape[1]}")
     filtered_df.to_feather(ARROW_DF_FILTERED_PATH)
-    
+    # set_trace()
     # Setup data processing
     embedder = DNALLMEmbedder(dependencies_dir=LLM_DEPENDENCIES_DIR)
     prober = IlluminaMethylationProber(dependencies_dir=LLM_DEPENDENCIES_DIR, embedder=embedder)
     
     # Process data
+    print(f"Samples being processed: {filtered_df.shape[0]}")
     quick_setup_datasaver = CpGPTDataSaver(data_paths=ARROW_DF_FILTERED_PATH, processed_dir=PROCESSED_DIR)
     quick_setup_datasaver.process_files(prober, embedder)
     
@@ -107,8 +203,8 @@ def main():
     quick_setup_datamodule = CpGPTDataModule(
         predict_dir=PROCESSED_DIR,
         dependencies_dir=LLM_DEPENDENCIES_DIR,
-        batch_size=8,
-        num_workers=0,
+        batch_size=128,
+        num_workers=0, #255
         max_length=MAX_INPUT_LENGTH,
         dna_llm=config.data.dna_llm,
         dna_context_len=config.data.dna_context_len,
@@ -130,7 +226,13 @@ def main():
     
     # Initialize trainer
     trainer = CpGPTTrainer(precision="16-mixed")
-    
+    # set_trace()
+    quick_setup_datamodule.setup(stage='predict')
+    dataloader = quick_setup_datamodule.predict_dataloader()
+    total_samples = len(dataloader.dataset)
+    print(f"Total samples in dataloader: {total_samples}")
+    # set_trace()
+
     # Get predictions
     sample_embeddings = trainer.predict(
         model=model,
@@ -144,7 +246,7 @@ def main():
     os.makedirs(embeddings_dir, exist_ok=True)
     
     # Save as numpy array
-    embeddings_path = os.path.join(embeddings_dir, 'sample_embeddings.npy')
+    embeddings_path = os.path.join(embeddings_dir, f'sample_embeddings_{MODEL_NAME}.npy')
     np.save(embeddings_path, sample_embeddings['sample_embedding'].cpu().numpy())
     
     # # Optionally save sample IDs if needed
@@ -196,14 +298,14 @@ def main():
     # condition_names = pred_conditions['condition_names']
     
     # Save predictions and condition names
-    np.save(os.path.join(embeddings_dir, 'predictions.npy'), predictions)
+    np.save(os.path.join(embeddings_dir, f'predictions_{MODEL_NAME}{MAX_INPUT_LENGTH}_{MAX_ATTN_LENGTH}.npy'), predictions)
     # Save predictions and sample IDs together
     predictions_dict = {
         'sample_ids': [str(id_) for id_ in filtered_df.index],  # Ensure IDs are strings
         'predictions': predictions.tolist()  # Convert numpy array to list for JSON serialization
     }
     
-    predictions_path = os.path.join(embeddings_dir, 'predictions_with_ids.json')
+    predictions_path = os.path.join(embeddings_dir, f'predictions_with_ids_{MODEL_NAME}_{MAX_INPUT_LENGTH}_{MAX_ATTN_LENGTH}.json')
     with open(predictions_path, 'w') as f:
         json.dump(predictions_dict, f, indent=2)
 
@@ -211,24 +313,15 @@ def main():
     sample_ids = [str(id_) for id_ in filtered_df.index]  # Ensure IDs are strings
     predictions = pred_conditions['pred_conditions'].cpu().numpy()
     true = filtered_metadata['AgeAtBloodDraw'].astype(float).tolist()  # Convert to list
-    with open(os.path.join(embeddings_dir, 'true_and_predicted.json'), 'w') as f:
+    with open(os.path.join(embeddings_dir, f'true_and_predicted_{MODEL_NAME}_{MAX_INPUT_LENGTH}_{MAX_ATTN_LENGTH}.json'), 'w') as f:
         json.dump({
             'sample_ids': sample_ids,
             'true_conditions': true,
             'predicted_conditions': predictions.tolist()  # Convert numpy array to list for JSON serialization
         }, f, indent=2)
 
-    
-    # Create DataFrame with predictions
-    pred_df = pd.DataFrame(
-        predictions, 
-        index=sample_ids
-    ) 
 
     set_trace()
-
-    # with open(os.path.join(predictions_dir, 'condition_names.json'), 'w') as f:
-    #     json.dump(condition_names, f)
         
     # Create DataFrame with predictions
     pred_df = pd.DataFrame(

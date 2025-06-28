@@ -9,6 +9,9 @@ from torch.utils.data import Dataset
 from cpgpt.log.utils import get_class_logger
 
 from .dna_llm_embedder import DNALLMEmbedder
+from pdb import set_trace
+# from IPython.core.debugger import set_trace
+
 
 
 class CpGPTDataset(Dataset):
@@ -198,9 +201,9 @@ class CpGPTDataset(Dataset):
             / self.dna_llm
             / f"{self.dna_context_len}bp_dna_embeddings.mmap"
         )
-        embeddings_index_dict = self.embedder.ensembl_metadata_dict[species][self.dna_llm][
-            self.dna_context_len
-        ]
+
+        embeddings_index_dict = self.embedder.ensembl_metadata_dict[species][self.dna_llm][self.dna_context_len]
+        # self.embedder.ensembl_metadata_dict['homo_sapiens']['nucleotide-transformer-v2-500m-multi-species']
         embeddings = np.memmap(
             embeddings_file,
             dtype="float32",

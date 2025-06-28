@@ -27,7 +27,7 @@ class CpGPTInferencer:
 
     """
 
-    def __init__(self, dependencies_dir: str = "dependencies", data_dir: str = "data") -> None:
+    def __init__(self, dependencies_dir: str = "dependencies", data_dir: str = "data", offline: bool = False) -> None: # TN: added "offline" option to skip downloading models and datasets when already available locally
         """Initialize the CpGPTInferencer.
 
         Sets up logging and determines the appropriate device (CPU/CUDA) for computations.
@@ -46,46 +46,57 @@ class CpGPTInferencer:
 
         self.logger.info(f"Using device: {self.device}.")
         self.logger.info(f"Using dependencies directory: {self.dependencies_dir}")
-        self.logger.info(f"Using data directory: {self.data_dir}")
+        self.logger.info(f"Using data directoryy: {self.data_dir}")
         if self.device == "cpu":
             self.logger.warning("Using CPU for inference. This may be slow.")
 
-        # Initialize S3 client
-        try:
-            self.s3_client = boto3.client("s3")
-            self.s3_resource = boto3.resource("s3")
-            self.bucket_name = "cpgpt-lucascamillo-public"
-
-            # Get available models
-            self._get_available_models()
-            if self.available_models:
-                examples = (
-                    self.available_models[:3]
-                    if len(self.available_models) > 3
-                    else self.available_models
-                )
-                self.logger.info(
-                    f"There are {len(self.available_models)} CpGPT models available "
-                    f"such as {', '.join(examples)}, etc."
-                )
-
-            # Get available datasets
-            self._get_available_datasets()
-            if self.available_datasets:
-                examples = (
-                    self.available_datasets[:3]
-                    if len(self.available_datasets) > 3
-                    else self.available_datasets
-                )
-                self.logger.info(
-                    f"There are {len(self.available_datasets)} GSE datasets available "
-                    f"such as {', '.join(examples)}, etc."
-                )
-
-        except Exception as e:
-            self.logger.warning(f"Failed to initialize S3 client: {e}")
+        if offline:
+            self.logger.warning(
+                "Running in offline mode. No models or datasets will be downloaded."
+            )
             self.s3_client = None
             self.s3_resource = None
+            return
+        # If not offline, initialize S3 client to fetch models and datasets
+        else:
+            self.logger.info("Initializing S3 client to fetch models and datasets.")
+            # Initialize S3 client
+            try:
+                self.s3_client = boto3.client("s3")
+                self.s3_resource = boto3.resource("s3")
+                self.bucket_name = "cpgpt-lucascamillo-public"
+
+                # Get available models
+                self._get_available_models()
+                if self.available_models:
+                    examples = (
+                        # self.available_models[:3]
+                        self.available_models
+                        if len(self.available_models) > 3
+                        else self.available_models
+                    )
+                    self.logger.info(
+                        f"There are {len(self.available_models)} CpGPT models available "
+                        f"such as {', '.join(examples)}, etc."
+                    )
+
+                # Get available datasets
+                self._get_available_datasets()
+                if self.available_datasets:
+                    examples = (
+                        self.available_datasets[:3]
+                        if len(self.available_datasets) > 3
+                        else self.available_datasets
+                    )
+                    self.logger.info(
+                        f"There are {len(self.available_datasets)} GSE datasets available "
+                        f"such as {', '.join(examples)}, etc."
+                    )
+
+            except Exception as e:
+                self.logger.warning(f"Failed to initialize S3 client: {e}")
+                self.s3_client = None
+                self.s3_resource = None
 
     def _get_available_models(self) -> None:
         """Query S3 to get a list of all available models."""

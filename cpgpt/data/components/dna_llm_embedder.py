@@ -99,12 +99,24 @@ class DNALLMEmbedder:
 
         """
         ensembl_metadata_dict_file = Path(self.dependencies_dir) / "ensembl_metadata.db"
+        print("&&&&&&&&&&&&&&&&&&&&&&&&& from dna_llm_embedder.py L102  ***************")
+        print("ensembl_metadata_dict_file: ", ensembl_metadata_dict_file)
+        # print("ensembl_metadata_dict_file (full path):", ensembl_metadata_dict_file.resolve())
+        # print("ensembl_metadata_dict_file.exists(): ", ensembl_metadata_dict_file.exists())
         if ensembl_metadata_dict_file.exists():
             with sqlitedict.SqliteDict(ensembl_metadata_dict_file, autocommit=True) as db:
                 self.ensembl_metadata_dict = dict(db)
             self.logger.info("Ensembl metadata dictionary loaded successfully")
-            return
 
+            # print("self.ensembl_metadata_dict: ", self.ensembl_metadata_dict)
+            # print("self.ensembl_metadata_dict.keys(): ", self.ensembl_metadata_dict.keys())
+            # print("self.ensembl_metadata_dict['homo_sapiens']: ", self.ensembl_metadata_dict['homo_sapiens'])
+            print("self.ensembl_metadata_dict['homo_sapiens'].keys(): ", self.ensembl_metadata_dict['homo_sapiens'].keys())
+            # print("self.ensembl_metadata_dict['homo_sapiens']['nucleotide-transformer-v2-500m-multi-species']: ", self.ensembl_metadata_dict['homo_sapiens']['nucleotide-transformer-v2-500m-multi-species'])
+            print("self.ensembl_metadata_dict['homo_sapiens']['nucleotide-transformer-v2-500m-multi-species'].keys(): ", self.ensembl_metadata_dict['homo_sapiens']['nucleotide-transformer-v2-500m-multi-species'].keys())
+            # print("self.ensembl_metadata_dict['homo_sapiens']['nucleotide-transformer-v2-500m-multi-species'][2001]: ", self.ensembl_metadata_dict['homo_sapiens']['nucleotide-transformer-v2-500m-multi-species'][2001])
+            # print("self.ensembl_metadata_dict['homo_sapiens']['nucleotide-transformer-v2-500m-multi-species'][2001].keys(): ", self.ensembl_metadata_dict['homo_sapiens']['nucleotide-transformer-v2-500m-multi-species'][2001].keys())
+            return
         self.logger.info("Loading Ensembl metadata. Might take a while")
         ensembl_metadata_file = self.genome_dir / "species_metadata_EnsemblVertebrates.json"
 

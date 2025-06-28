@@ -880,3 +880,1180 @@
 2025-05-27 05:11:24 | INFO | CpGPTInferencer: Using device: cuda.
 2025-05-27 05:11:24 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
 2025-05-27 05:11:24 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 16:34:07 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 16:34:07 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 16:34:07 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 16:34:07 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-31 16:39:12 | WARNING | CpGPTInferencer: Failed to get available models: Read timeout on endpoint URL: "https://cpgpt-lucascamillo-public.s3.amazonaws.com/?list-type=2&prefix=dependencies%2Fmodel%2Fweights%2F&encoding-type=url"
+2025-05-31 16:44:19 | WARNING | CpGPTInferencer: Failed to get available datasets: Read timeout on endpoint URL: "https://cpgpt-lucascamillo-public.s3.amazonaws.com/?list-type=2&prefix=data%2Fcpgcorpus%2Fraw%2F&delimiter=%2F&max-keys=1000&encoding-type=url"
+2025-05-31 16:50:39 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 16:50:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 16:50:39 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 16:50:39 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-31 16:55:44 | WARNING | CpGPTInferencer: Failed to get available models: Read timeout on endpoint URL: "https://cpgpt-lucascamillo-public.s3.amazonaws.com/?list-type=2&prefix=dependencies%2Fmodel%2Fweights%2F&encoding-type=url"
+2025-05-31 17:00:51 | WARNING | CpGPTInferencer: Failed to get available datasets: Read timeout on endpoint URL: "https://cpgpt-lucascamillo-public.s3.amazonaws.com/?list-type=2&prefix=data%2Fcpgcorpus%2Fraw%2F&delimiter=%2F&max-keys=1000&encoding-type=url"
+2025-05-31 17:07:56 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 17:07:56 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:07:56 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 17:07:56 | INFO | CpGPTInferencer: Using data directory: ../data
+2025-05-31 17:13:01 | WARNING | CpGPTInferencer: Failed to get available models: Read timeout on endpoint URL: "https://cpgpt-lucascamillo-public.s3.amazonaws.com/?list-type=2&prefix=dependencies%2Fmodel%2Fweights%2F&encoding-type=url"
+2025-05-31 17:17:46 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 17:17:46 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:17:46 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 17:17:46 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 17:19:46 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 17:19:46 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:19:46 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 17:19:46 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 17:20:19 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 17:20:19 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:20:19 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 17:20:19 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 17:21:48 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 17:21:48 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:21:48 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 17:21:48 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 17:21:48 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 17:22:11 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 17:22:12 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 17:22:13 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:22:13 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 17:22:14 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 17:29:41 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 17:29:41 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:29:41 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 17:29:41 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 17:29:41 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 17:32:32 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 17:32:32 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 17:32:33 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:32:33 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 17:32:33 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 17:33:44 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 17:33:44 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:33:44 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 17:33:44 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 17:33:44 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 17:34:29 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 17:34:29 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 17:34:29 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:34:29 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 17:34:29 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 17:36:30 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 17:36:30 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:36:30 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 17:36:30 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 17:36:30 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 17:46:33 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 17:46:33 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:46:33 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 17:46:33 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 17:46:33 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 17:46:49 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 17:46:49 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 17:46:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 17:46:49 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 17:46:49 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:00:08 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:00:08 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:00:08 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:00:08 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:00:08 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:00:24 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 18:00:24 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 18:00:25 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:00:25 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 18:00:25 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:01:15 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:01:15 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:01:15 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:01:15 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:01:15 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:01:15 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:01:15 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:01:15 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:01:35 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 18:01:36 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 18:01:36 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:36 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 18:01:36 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:01:36 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 18:01:36 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 18:01:37 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:37 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 18:01:37 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:01:39 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 18:01:39 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 18:01:40 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:40 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 18:01:40 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:01:48 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 18:01:49 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 18:01:49 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 18:01:49 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 18:01:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:49 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 18:01:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:01:49 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 18:01:49 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:01:49 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:02:06 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 18:02:07 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 18:02:10 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 18:02:10 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 18:02:11 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:02:11 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:02:11 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 18:02:11 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 18:02:11 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:02:11 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:10:03 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:10:03 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:10:03 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:10:03 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:10:03 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:10:49 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 18:10:51 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 18:10:52 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:10:52 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 18:10:52 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:50:21 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:50:21 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:50:21 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:50:21 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:50:21 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:50:37 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 18:50:38 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 18:50:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:50:38 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 18:50:38 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 18:58:46 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 18:58:46 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 18:58:46 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 18:58:46 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 18:58:46 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 18:59:02 | ERROR | CpGPTInferencer: S3 client is not initialized. Make sure boto3 is installed and AWS credentials are configured.
+2025-05-31 19:00:13 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 19:00:13 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 19:00:13 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 19:00:13 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 19:00:13 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-05-31 19:05:18 | WARNING | CpGPTInferencer: Failed to get available models: Read timeout on endpoint URL: "https://cpgpt-lucascamillo-public.s3.amazonaws.com/?list-type=2&prefix=dependencies%2Fmodel%2Fweights%2F&encoding-type=url"
+2025-05-31 19:10:25 | WARNING | CpGPTInferencer: Failed to get available datasets: Read timeout on endpoint URL: "https://cpgpt-lucascamillo-public.s3.amazonaws.com/?list-type=2&prefix=data%2Fcpgcorpus%2Fraw%2F&delimiter=%2F&max-keys=1000&encoding-type=url"
+2025-05-31 19:41:55 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 19:41:55 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 19:41:55 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 19:41:55 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 19:41:55 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 19:42:37 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 19:42:37 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 19:42:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 19:42:38 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 19:42:38 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 19:45:55 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 19:45:55 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 19:45:55 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 19:45:55 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 19:45:55 | WARNING | CpGPTInferencer: Running in offline mode. No models or datasets will be downloaded.
+2025-05-31 19:46:12 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 19:46:12 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 19:46:12 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 19:46:12 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 19:46:12 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 21:45:27 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 21:45:27 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 21:45:27 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 21:45:27 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 21:45:27 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-05-31 21:50:32 | WARNING | CpGPTInferencer: Failed to get available models: Read timeout on endpoint URL: "https://cpgpt-lucascamillo-public.s3.amazonaws.com/?list-type=2&prefix=dependencies%2Fmodel%2Fweights%2F&encoding-type=url"
+2025-05-31 21:55:38 | WARNING | CpGPTInferencer: Failed to get available datasets: Read timeout on endpoint URL: "https://cpgpt-lucascamillo-public.s3.amazonaws.com/?list-type=2&prefix=data%2Fcpgcorpus%2Fraw%2F&delimiter=%2F&max-keys=1000&encoding-type=url"
+2025-05-31 21:56:17 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-31 21:56:19 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-31 21:56:20 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 21:56:20 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-05-31 21:56:20 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-31 22:43:50 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-31 22:43:50 | INFO | CpGPTInferencer: Using device: cuda.
+2025-05-31 22:43:50 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-05-31 22:43:50 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-05-31 22:43:50 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-05-31 22:48:55 | WARNING | CpGPTInferencer: Failed to get available models: Read timeout on endpoint URL: "https://cpgpt-lucascamillo-public.s3.amazonaws.com/?list-type=2&prefix=dependencies%2Fmodel%2Fweights%2F&encoding-type=url"
+2025-06-01 00:11:27 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-01 00:11:27 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-01 00:11:27 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-01 00:11:27 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-01 00:11:27 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-01 00:45:11 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-01 00:45:11 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-01 00:45:11 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-01 00:45:11 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-01 00:45:11 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-01 00:45:13 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-01 00:45:13 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-01 00:45:45 | INFO | CpGPTInferencer: Downloading model checkpoint to ../dependencies/model/weights/age.ckpt.
+2025-06-01 00:45:46 | INFO | CpGPTInferencer: Downloading model config to ../dependencies/model/config/age.yaml
+2025-06-01 00:45:46 | INFO | CpGPTInferencer: Downloading model vocabulary to ../dependencies/model/vocab/age.json
+2025-06-01 00:45:46 | INFO | CpGPTInferencer: Successfully downloaded model 'age'.
+2025-06-01 00:45:46 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-01 00:45:47 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-01 00:45:47 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-01 00:45:47 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-01 00:45:47 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-01 00:47:24 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-01 00:47:24 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-01 00:47:24 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-01 00:47:24 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-01 00:47:24 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-01 00:47:25 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-01 00:47:25 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-01 00:47:38 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-01 00:47:38 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-01 00:47:38 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-01 00:47:38 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-01 00:47:38 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-01 00:54:29 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-01 00:54:29 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-01 00:54:29 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-01 00:54:29 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-01 00:54:29 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-01 00:54:30 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-01 00:54:30 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-01 00:54:42 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-01 00:54:43 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-01 00:54:43 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-01 00:54:43 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-01 00:54:43 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-01 17:53:01 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-01 17:53:01 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-01 17:53:01 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-01 17:53:01 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-01 17:53:01 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-01 17:53:04 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-01 17:53:04 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-01 17:53:34 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-01 17:53:36 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-01 17:53:36 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-01 17:53:36 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-01 17:53:36 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-02 15:33:00 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-02 15:33:00 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-02 15:33:00 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-02 15:33:00 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-02 15:33:00 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-02 16:03:25 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-02 16:03:25 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-02 16:03:25 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-02 16:03:25 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-02 16:03:25 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-04 21:54:19 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-04 21:54:19 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-04 21:54:19 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-04 21:54:19 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-04 21:54:19 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-04 21:54:21 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-04 21:54:22 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-04 21:55:07 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-04 21:55:09 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-04 21:55:10 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-04 21:55:10 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-04 21:55:10 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 04:55:58 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 04:55:58 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 04:55:58 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 04:55:58 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 04:55:58 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 04:56:00 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 04:56:00 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 04:56:28 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 04:56:29 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 04:56:29 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 04:56:29 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 04:56:29 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 05:21:50 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 05:21:50 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 05:21:50 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 05:21:50 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 05:21:50 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 05:21:52 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 05:21:52 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 05:22:08 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 05:22:08 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 05:22:08 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 05:22:08 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 05:22:09 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 05:52:56 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 05:52:56 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 05:52:56 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 05:52:56 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 05:52:56 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 05:52:57 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 05:52:57 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 05:53:13 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 05:53:14 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 05:53:14 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 05:53:14 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 05:53:14 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 06:00:42 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 06:00:42 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:00:42 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 06:00:42 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 06:00:42 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 06:00:43 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 06:00:43 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 06:01:00 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 06:01:00 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 06:01:00 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:01:00 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 06:01:00 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 06:04:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 06:04:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:04:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 06:04:32 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 06:04:32 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 06:04:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 06:04:32 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 06:04:49 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 06:04:49 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 06:04:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:04:49 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 06:04:49 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 06:12:41 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 06:12:41 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:12:41 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 06:12:41 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 06:12:41 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 06:12:42 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 06:12:42 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 06:12:58 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 06:12:59 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 06:12:59 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:12:59 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 06:12:59 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 06:33:40 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 06:33:40 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:33:40 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 06:33:40 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 06:33:40 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 06:33:41 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 06:33:41 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 06:34:12 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 06:34:13 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 06:34:13 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:34:13 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 06:34:13 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 06:50:11 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 06:50:11 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:50:11 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 06:50:11 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 06:50:11 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 06:50:12 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 06:50:12 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 06:50:28 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 06:50:29 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 06:50:29 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:50:29 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 06:50:29 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 06:56:47 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 06:56:47 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:56:47 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 06:56:47 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 06:56:47 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 06:56:48 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 06:56:48 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 06:57:04 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 06:57:04 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 06:57:04 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 06:57:04 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 06:57:04 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:04:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:04:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:04:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:04:32 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:04:32 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:04:33 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:04:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:04:49 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:04:49 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:04:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:04:49 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:04:49 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:09:35 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:09:35 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:09:35 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:09:35 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:09:35 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:09:36 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:09:37 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:09:53 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:09:53 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:09:53 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:09:53 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:09:53 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:26:44 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:26:44 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:26:44 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:26:44 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:26:44 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:26:46 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:26:46 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:27:02 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:27:02 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:27:02 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:27:02 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:27:02 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:32:30 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:32:30 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:32:30 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:32:30 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:32:30 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:32:31 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:32:31 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:32:49 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:32:50 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:32:50 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:32:50 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:32:50 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:33:38 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:33:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:33:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:33:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:33:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:33:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:33:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:33:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:34:01 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:34:01 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:34:01 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:34:01 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:34:02 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:34:02 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:34:02 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:34:03 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:34:03 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:34:03 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:34:10 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:34:10 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:34:10 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:34:10 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:34:10 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:34:10 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:34:10 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:34:11 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:34:11 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:34:11 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:34:11 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:34:11 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:34:11 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:34:11 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:34:11 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:34:17 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:34:17 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:34:20 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:34:20 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:34:29 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:34:33 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:34:35 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:34:36 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:34:36 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:34:36 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 07:53:33 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 07:53:33 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:53:33 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 07:53:33 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 07:53:33 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 07:53:35 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 07:53:35 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 07:54:10 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 07:54:11 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 07:54:11 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 07:54:11 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 07:54:12 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:15:08 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:15:08 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:15:08 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:15:08 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:15:08 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:15:09 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:15:10 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:15:26 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:15:26 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:15:26 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:15:26 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:15:26 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:20:05 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:20:05 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:20:05 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:20:05 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:20:05 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:20:06 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:20:06 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:20:22 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:20:23 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:20:23 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:20:23 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:20:23 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:31:27 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:31:27 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:31:27 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:31:27 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:31:27 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:31:28 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:31:28 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:31:45 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:31:45 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:31:45 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:31:45 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:31:45 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:52:42 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:52:42 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:52:42 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:52:42 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:52:42 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:52:43 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:52:44 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:53:00 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:53:00 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:53:01 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:53:01 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:53:01 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 08:53:49 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:53:50 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 08:54:12 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:54:13 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:54:13 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:54:13 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:54:13 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:54:14 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:54:14 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:54:14 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:54:14 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:54:14 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:54:18 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:54:18 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:54:18 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:54:18 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:54:18 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:54:20 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:54:20 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:54:20 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:54:20 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:54:20 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:54:21 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:54:22 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:54:22 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:54:22 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:54:22 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:54:24 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:54:24 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:54:25 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:54:25 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:54:25 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 08:54:26 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 08:54:26 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 08:54:27 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 08:54:27 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-05 08:54:27 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:03:56 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:03:56 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:03:56 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:03:56 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:03:56 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:03:58 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:03:58 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:04:29 | INFO | CpGPTInferencer: Downloading model checkpoint to ../dependencies/model/weights/clock_proxies.ckpt.
+2025-06-05 09:04:30 | INFO | CpGPTInferencer: Downloading model config to ../dependencies/model/config/clock_proxies.yaml
+2025-06-05 09:04:30 | INFO | CpGPTInferencer: Downloading model vocabulary to ../dependencies/model/vocab/clock_proxies.json
+2025-06-05 09:04:30 | INFO | CpGPTInferencer: Successfully downloaded model 'clock_proxies'.
+2025-06-05 09:04:30 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:04:31 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:04:31 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:04:31 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:04:31 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:06:32 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:06:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:06:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:06:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:06:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:06:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:06:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:06:33 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:06:55 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:06:55 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:06:55 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:06:55 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:06:55 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:06:57 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:06:57 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:06:57 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:06:57 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:06:57 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:06:58 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:06:58 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:06:58 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:06:58 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:06:58 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:11:08 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:11:08 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:11:08 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:11:08 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:11:08 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:11:10 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:11:10 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:11:50 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:11:52 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:11:52 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:11:52 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:11:53 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:17:03 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:17:03 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:17:03 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:17:03 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:17:03 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:17:03 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:17:03 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:17:20 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:17:20 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:17:20 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:17:20 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:17:20 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:19:01 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:19:01 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:01 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:19:01 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:19:01 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:19:02 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:19:25 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:19:25 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:19:25 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:25 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:19:25 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:19:28 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:19:28 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:19:29 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:29 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:19:29 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:19:34 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:19:35 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:19:35 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:35 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:19:35 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:19:37 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:19:38 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:19:38 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:38 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:19:38 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:19:38 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:19:38 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:19:39 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:39 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:19:39 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:19:52 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:19:52 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:19:52 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:52 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:19:52 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:19:56 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:19:56 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:19:57 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:19:57 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:19:57 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-05 09:32:47 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-05 09:32:47 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:32:47 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-05 09:32:47 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-05 09:32:47 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-05 09:32:48 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-05 09:32:49 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-05 09:33:24 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-05 09:33:24 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-05 09:33:24 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-05 09:33:24 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-05 09:33:25 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-07 20:37:37 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-07 20:37:37 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-07 20:37:37 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-07 20:37:37 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-07 20:37:37 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-07 20:37:39 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-07 20:37:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-07 20:38:15 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-07 20:38:16 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-07 20:38:17 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-07 20:38:17 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-07 20:38:17 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-17 07:49:55 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-17 07:49:55 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 07:49:55 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-17 07:49:55 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-17 07:49:55 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-17 07:49:57 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-17 07:49:57 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-17 07:54:48 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-17 07:54:48 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 07:54:48 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-17 07:54:48 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-17 07:54:48 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-17 07:54:49 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-17 07:54:49 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-17 08:13:04 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-17 08:13:04 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 08:13:04 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-17 08:13:04 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-17 08:13:04 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-17 08:13:05 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-17 08:13:06 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-17 08:20:09 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-17 08:20:11 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-17 08:20:11 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 08:20:11 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-17 08:20:12 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-17 08:46:33 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-17 08:46:33 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 08:46:33 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-17 08:46:33 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-17 08:46:33 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-17 08:46:34 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-17 08:46:35 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-17 08:47:27 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-17 08:47:27 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-17 08:47:27 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 08:47:27 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-17 08:47:27 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-17 08:57:28 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-17 08:57:28 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 08:57:28 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-17 08:57:28 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-17 08:57:28 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-17 08:57:28 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-17 08:57:28 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-17 08:57:50 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-17 08:57:50 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-17 08:57:50 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 08:57:50 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-17 08:57:50 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-17 09:03:06 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-17 09:03:06 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 09:03:06 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-17 09:03:06 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-17 09:03:06 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-17 09:03:08 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-17 09:03:08 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-17 09:03:44 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-17 09:03:45 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-17 09:03:46 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 09:03:46 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-17 09:03:46 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-17 09:10:40 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-17 09:10:40 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 09:10:40 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-17 09:10:40 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-17 09:10:40 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-17 09:10:41 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-17 09:10:41 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-17 09:11:17 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-17 09:11:18 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-17 09:11:19 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 09:11:19 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-17 09:11:19 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-17 09:16:40 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-17 09:16:40 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 09:16:40 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-17 09:16:40 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-17 09:16:40 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-17 09:16:41 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-17 09:16:41 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-17 09:17:01 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-17 09:17:01 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-17 09:17:01 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-17 09:17:01 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-17 09:17:01 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 00:48:44 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 00:48:44 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 00:48:44 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 00:48:44 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 00:48:44 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 00:48:46 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 00:48:46 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 00:49:30 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 00:49:30 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 00:49:31 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 00:49:31 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 00:49:31 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 03:05:14 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 03:05:14 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-19 03:05:14 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 03:05:14 | INFO | CpGPTInferencer: Using data directoryy: ../data_B
+2025-06-19 03:05:14 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 03:05:16 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 03:05:16 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 03:05:26 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 03:05:59 | INFO | CpGPTInferencer: Downloading human dependencies to ../dependencies/human.
+2025-06-19 03:06:26 | INFO | CpGPTInferencer: Successfully downloaded human dependencies.
+2025-06-19 03:19:05 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 03:19:05 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 03:19:05 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 03:19:05 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 03:19:05 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 03:19:06 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 03:19:06 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 03:19:06 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 03:19:46 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 03:19:47 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 03:19:47 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 03:19:47 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 03:19:48 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 04:06:08 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 04:06:08 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 04:06:08 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 04:06:08 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 04:06:08 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 04:06:09 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 04:06:09 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 04:06:09 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 04:06:44 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 04:06:44 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 04:06:45 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 04:06:45 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-19 04:06:45 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 04:47:49 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 04:47:49 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 04:47:49 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 04:47:49 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 04:47:49 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 04:47:50 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 04:47:50 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 04:47:50 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 04:48:19 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 04:48:19 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 04:48:19 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 04:48:19 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/age.ckpt
+2025-06-19 04:48:19 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 06:53:37 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 06:53:37 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 06:53:37 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 06:53:37 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 06:53:37 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 06:53:39 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 06:53:39 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 06:53:39 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 06:54:15 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 06:54:16 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 06:54:16 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 06:54:16 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 06:54:17 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 06:59:57 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 06:59:57 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 06:59:57 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 06:59:57 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 06:59:57 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 06:59:58 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 06:59:58 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 06:59:58 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 07:00:15 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 07:00:16 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 07:00:16 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:00:16 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 07:00:16 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 07:01:52 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 07:01:53 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 07:02:15 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 07:02:15 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 07:02:15 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:02:15 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 07:02:15 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 07:02:18 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 07:02:18 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 07:02:18 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 07:02:18 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:02:18 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 07:02:18 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 07:02:18 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 07:02:18 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:02:18 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 07:02:18 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 07:02:23 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 07:02:23 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 07:02:23 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:02:23 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 07:02:23 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 07:02:24 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 07:02:24 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 07:02:25 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:02:25 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 07:02:25 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 07:02:41 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 07:02:41 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 07:02:41 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 07:02:41 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 07:02:41 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:02:41 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 07:02:41 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 07:02:41 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 07:02:41 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 07:02:41 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-19 16:12:28 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-19 16:12:28 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 16:12:28 | INFO | CpGPTInferencer: Using dependencies directory: ../dependencies
+2025-06-19 16:12:28 | INFO | CpGPTInferencer: Using data directoryy: ../data
+2025-06-19 16:12:28 | INFO | CpGPTInferencer: Initializing S3 client to fetch models and datasets.
+2025-06-19 16:12:30 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, boa, cancer, clock_proxies, diseases, epicvmammal, hannum, hannum_cot, human_rrbs_atlas, large, mammalian, maximum_lifespan, mortality, proteins, relative_age, scimetv3, small, etc.
+2025-06-19 16:12:30 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-19 16:12:30 | INFO | CpGPTInferencer: Dependencies for human already exist at ../dependencies/human (skipping download).
+2025-06-19 16:13:16 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-19 16:13:16 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-19 16:13:17 | INFO | CpGPTInferencer: Using device: cuda.
+2025-06-19 16:13:17 | INFO | CpGPTInferencer: Loading checkpoint from: ../dependencies/model/weights/clock_proxies.ckpt
+2025-06-19 16:13:17 | INFO | CpGPTInferencer: Checkpoint loaded into the model.

@@ -10,7 +10,7 @@ wandb:
   project: CpGPT
   log_model: True # upload lightning ckpts
   prefix: "" # a string to put at the beginning of metric keys
-  entity: "lucascamillo" # set to name of your wandb team
+  entity: "tnnandi" # set to name of your wandb team
   group: ""
   tags: []
   job_type: ""

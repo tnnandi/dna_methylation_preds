@@ -12,7 +12,7 @@ devices: 1
 precision: 16-mixed
 
 # perform a validation loop every N training steps
-val_check_interval: 1000
+val_check_interval: 50
 
 # do not perform validation at the end of each epoch
 check_val_every_n_epoch: null

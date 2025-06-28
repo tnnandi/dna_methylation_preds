@@ -11,6 +11,8 @@ from cpgpt.log.utils import get_class_logger
 from .dna_llm_embedder import DNALLMEmbedder
 from .illumina_methylation_prober import IlluminaMethylationProber
 
+from pdb import set_trace
+
 
 class CpGPTDataSaver:
     """A class for processing and saving methylation data.
@@ -161,7 +163,7 @@ class CpGPTDataSaver:
             progress_bar = tqdm(data_paths_to_process, desc="Processing files", leave=False)
             for data_path in progress_bar:
                 filename = Path(data_path).name
-                progress_bar.set_description(f"Processing: {filename}")
+                progress_bar.set_description(f"Processing (from cpgpt_datasaver.py): {filename}")
                 self._process_single_file(data_path, prober, embedder, check_methylation_pattern)
 
             self.logger.info("File processing completed.")
@@ -201,7 +203,7 @@ class CpGPTDataSaver:
             prober,
             embedder,
         )
-
+        print("species (from cpgpt_datasaver.py L206):", species)
         # If final_df is empty, skip this file
         if final_df.empty or len(final_df.columns) == 0:
             self.logger.warning(f"DataFrame is empty for {dataset_name}. Skipping.")
@@ -340,7 +342,10 @@ class CpGPTDataSaver:
             Preserves original column order and non-probe columns
 
         """
+        # set_trace()
+        print("Available species in illumina_metadata_dict:", list(prober.illumina_metadata_dict.keys()))
         probe_set = set(prober.illumina_metadata_dict[species].keys())
+        
 
         # Create a mapping of probe features to genomic locations
         probe_to_genomic = {
@@ -465,6 +470,7 @@ class CpGPTDataSaver:
 
         # Process species information
         betas_df, species = self._process_species(betas_df, embedder)
+        print(f"Species detected: {species} [from cpgpt_datasaver.py L473]")
 
         # Process probes
         df_probes = self._process_probes(betas_df, species, prober)

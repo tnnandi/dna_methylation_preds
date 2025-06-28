@@ -51,6 +51,8 @@ class CpGPTDataModule(LightningDataModule):
         super().__init__()
 
         # Check if at least one of the directories is provided
+        print("************************************************ from cpgpt_datamodule.py L54")
+        print(train_dir, val_dir, test_dir, predict_dir)
         if train_dir is None and val_dir is None and test_dir is None and predict_dir is None:
             msg = "At least one of the directories must be provided."
             raise ValueError(msg)
