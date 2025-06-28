@@ -1,0 +1,149 @@
+task_name: train
+tags:
+- finetune_clock_proxies_small_clock_proxies
+- finetuning
+- small
+- clock_proxies
+train: true
+test: true
+trainer_ckpt_path: null
+model_ckpt_path: dependencies/model/weights/small.ckpt
+strict_load: false
+seed: 42
+data:
+  batch_size: 8
+  dna_llm: nucleotide-transformer-v2-500m-multi-species
+  max_length: 10000
+  sorting_strategy: sorted_chromosome
+  dna_context_len: 2001
+  num_workers: 8
+  pin_memory: false
+  _target_: cpgpt.data.cpgpt_datamodule.CpGPTDataModule
+  train_dir: ${paths.data_dir}/clock_proxies/processed/train
+  val_dir: ${paths.data_dir}/clock_proxies/processed/val
+  test_dir: ${paths.data_dir}/clock_proxies/processed/test
+  dependencies_dir: ${paths.dependencies_dir}/human
+model:
+  optimizer:
+    _target_: schedulefree.AdamWScheduleFree
+    _partial_: true
+    lr: 0.0001
+    weight_decay: 0.01
+    betas:
+    - 0.9
+    - 0.95
+    warmup_steps: ${trainer.min_steps}
+  scheduler:
+    _target_: torch.optim.lr_scheduler.ConstantLR
+    _partial_: true
+    factor: 1.0
+    total_iters: 1
+  net:
+    _target_: cpgpt.model.components.model.CpGPT
+    d_embedding: 128
+    d_hidden: 128
+    d_dna_embedding: 1024
+    n_attention_heads: 8
+    n_layers: 8
+    n_mlp_blocks: 3
+    dropout: 0.01
+    architecture: transformer
+    activation: swiglu
+    positional_encoding: rotary
+    sample_embedding_method: cls
+    use_power_norm: false
+    fft: false
+    use_condition_decoder: true
+    condition_size: 5
+    use_noise_decoder: false
+    mlp_block_bias: false
+    mlp_block_norm_type: rmsnorm
+    mlp_block_pre_norm: false
+    mlp_block_post_norm: false
+    transformer_block_bias: false
+    transformer_block_norm_type: rmsnorm
+    transformer_block_norm_first: true
+    transformer_block_dropout: 0.0
+  training:
+    generative_splits: 2
+    binarize_input: false
+    contrastive_threshold: 0.5
+    diffusion: false
+    reconstruct_mode: all
+    diffusion_params:
+      num_timesteps: 1000
+    loss_weights:
+      m_mae: 10.0
+      m_mae_unc: 1.0
+      betas_mae: 0.0
+      betas_kld: 0.0
+      betas_beta: 0.0
+      betas_wd: 1.0
+      contrastive: 1.0
+      sample_kld: 1.0
+      diffusion_mse: 0.0
+      condition_loss: 0.2
+      consistency: 1.0
+    condition_decoder_loss: mae
+  _target_: cpgpt.model.cpgpt_module.CpGPTLitModule
+  compile: true
+callbacks:
+  model_checkpoint:
+    _target_: lightning.pytorch.callbacks.ModelCheckpoint
+    dirpath: ${paths.output_dir}/checkpoints
+    filename: ${tags[0]}
+    monitor: val/condition_loss
+    verbose: false
+    save_last: true
+    save_top_k: 1
+    mode: min
+    auto_insert_metric_name: false
+    save_weights_only: false
+    every_n_train_steps: null
+    train_time_interval: null
+    every_n_epochs: null
+    save_on_train_epoch_end: null
+  model_summary:
+    _target_: lightning.pytorch.callbacks.RichModelSummary
+    max_depth: -1
+  rich_progress_bar:
+    _target_: lightning.pytorch.callbacks.RichProgressBar
+logger:
+  wandb:
+    _target_: lightning.pytorch.loggers.wandb.WandbLogger
+    save_dir: ${paths.output_dir}
+    offline: false
+    id: null
+    anonymous: null
+    project: CpGPT
+    log_model: true
+    prefix: ''
+    entity: lucascamillo
+    group: ''
+    tags: ${tags}
+    job_type: ''
+trainer:
+  _target_: lightning.pytorch.trainer.Trainer
+  default_root_dir: ${paths.output_dir}
+  min_steps: 2000
+  max_steps: 100000
+  accelerator: auto
+  devices: 1
+  precision: 16-mixed
+  val_check_interval: 1000
+  check_val_every_n_epoch: null
+  log_every_n_steps: 1
+  detect_anomaly: false
+  deterministic: false
+  accumulate_grad_batches: 1
+paths:
+  root_dir: ${oc.env:PROJECT_ROOT}
+  data_dir: ${paths.root_dir}/data/
+  dependencies_dir: ${paths.root_dir}/dependencies/
+  log_dir: ${paths.root_dir}/logs/
+  output_dir: ${hydra:runtime.output_dir}
+  work_dir: ${hydra:runtime.cwd}
+extras:
+  ignore_warnings: true
+  enforce_tags: true
+  print_config: true
